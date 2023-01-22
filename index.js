@@ -44,7 +44,7 @@ MongoClient.connect(uri, function (err, client) {
 
 
             app.get('/dataS',(req,res)=>{
-                res.send(fkDb)
+                res.send('fkDb')
             })
 
             // get all item
